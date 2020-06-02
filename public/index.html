@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia|Play|Orbitron|Lexend Tera|
+    Special Elite' rel='stylesheet'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Weather Log App</title>
+  </head>
+  <body><center>
+    <h1 style="font-family: 'Sofia';font-size: 42px;text-shadow: 4px 4px 4px rgb(201, 201, 0); color: yellow;">Weather Here</h1>   
+      <h3  style="font-family: 'Orbitron'; color: #fff;"> Latitude: <span id="latitude"></span>&deg;<br />
+        Longitude: <span id="longitude" ></span>&deg;</h3>
+    </p>
+    
+    
+    <p style="font-family: Play; font-weight: bold;color: #fff;">Weather here is <span id="description"></span> with a temperature  <span id="temp"></span>&deg;C</p>
+   
+    <div><a href="/"> <button id="submit">Check In</button></a> <a href="/logs"> <button id="logs" >View Check In</button></a></div>
+    <p>
+  </center>
+    <script src="weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-image: url('bg.jpg');
+  }
+  #checkinMap{
+    margin: 20px;
+    height: 280px;
+    border: solid black;
+
+  }
+ #submit{
+   float: left;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-color: blue; 
+   border: none;
+   margin-left: 20%;
+   font-family: 'Play';
+   font-weight: bolder;
+  font-size: 25px;
+  opacity: 50%;
+
+
+  
+ }
+ #logs{
+  float: right;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: green; 
+  border: none;
+  margin-right: 20%;
+  font-family: 'Play';
+  font-weight: bolder;
+  font-size: 20px;
+  opacity: 50%;
+
+  
+ 
+}
+#submit :hover{
+  opacity: 100%;
+}
+}
+#logs :hover{
+  opacity: 100%;
+}
