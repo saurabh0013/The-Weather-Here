@@ -2,6 +2,7 @@ const express = require('express');
 const fetch =  require('node-fetch');
 const Datastore = require("nedb");
 require('dotenv').config();
+console.log(process.env);
 
 
 
