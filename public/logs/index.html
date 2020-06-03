@@ -7,20 +7,26 @@
     
     <link href='https://fonts.googleapis.com/css?family=Sofia|Play|Orbitron|Satisfy|Lexend Tera' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin=""></script>
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
     <link rel="stylesheet" href="../style.css">
 
     <title>Weather Log</title>
   </head>
-  <body><center>          <h1 style="font-family: 'Sofia';font-size: 42px;text-shadow: 4px 4px 4px rgb(201, 201, 0); color: yellow;">Weather Here</h1>
+  <body>
+    <center>          
+      
+      <h1>Weather Here</h1>
 
-    <div id="checkinMap"></div>
-    <div><a href="/"> <button id="submit" >Check In</button></a> <a href="/logs">
-       <button id="logs" >View</button></a></div></center>
+      <div id="checkinMap"></div>
+      <div>
+        <a href="/"> <button id="submit" >Check In</button></a> 
+        <a href="/logs"> <button id="logs" >View</button></a>
+      </div>
+    </center>
        
     <script src="logs.js"></script>
   </body>
